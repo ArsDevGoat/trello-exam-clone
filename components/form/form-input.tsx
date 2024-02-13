@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { FormErrors } from "./form-errors";
 
 interface FormInputProps {
-  id?: string;
+  id: string;
   label?: string;
   type?: string;
   placeholder?: string;
